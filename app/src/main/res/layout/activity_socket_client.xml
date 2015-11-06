@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/link"
+        android:text="连接服务器"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/out"
+        android:text="发送封包"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/rev"
+        android:text="接收显示"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="......."
+        />
+    <!--android:text="请输入半径值:"  -->
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="......."
+        />
+    <!--android:text="圆面积为："  -->
+    <TextView
+        android:id="@+id/receiver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Transproting...." />
+    <TextView
+       android:id="@+id/outputer"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="waiting ...." />
+
+</LinearLayout> 
+
+
